@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=posicion
+comment0.target=Balas(Coordenada)
+comment0.text=\r\n\ Construcor\ de\ la\ clase\ bala\r\n\ @param\ posicio\ en\ el\ tablero\r\n\ estado\ inicial\ vivo\=1\r\n
+comment1.params=
+comment1.target=int\ getCoordenadaX()
+comment2.params=
+comment2.target=int\ getCoordenadaY()
+comment3.params=
+comment3.target=int\ getEstado()
+comment4.params=pasos
+comment4.target=void\ moverVertical(int)
+comment4.text=\r\n\ Control\ del\ movimiento\ Vertical\ de\ la\ bala\r\n\ @param\ pasos\ que\ se\ desplaza\ hotizontalmente\r\n
+comment5.params=
+comment5.target=void\ naveAlcanzada()
+comment5.text=\r\n\ Nave\ Alcanzada\r\n\ si\ es\ una\ bomba\ invasora\ y\ alcanza\r\n\ al\ defensor\r\n\ cambia\ de\ color\ a\ amarillo\r\n
+comment6.params=g
+comment6.target=void\ pintar(java.awt.Graphics)
+comment6.text=\r\n\ pinta\ las\ balas\r\n\ es\ un\ rectangulo\ de\ medidas\ la\ mitad\r\n\ que\ un\ cuadrado\ de\ la\ nave.\r\n\ el\ +4\ es\ para\ centrarlo\r\n\ en\ el\ morro\ de\ la\ nave\r\n
+numComments=7

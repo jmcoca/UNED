@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Coordenada(int,\ int)
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ Coordenda\r\n\ @param\ fila\ y\r\n\ @param\ columna\ x\r\n
+comment1.params=
+comment1.target=int\ getX()
+comment2.params=
+comment2.target=int\ getY()
+comment3.params=i
+comment3.target=void\ mueveX(int)
+comment4.params=i
+comment4.target=void\ mueveY(int)
+numComments=5

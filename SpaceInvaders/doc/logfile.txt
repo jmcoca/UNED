@@ -1,0 +1,46 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-6-sun-1.6.0.26/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.6
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders
+-d
+/home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/PanelDeJuego.java
+<---- end of javadoc command ---->
+Loading source file /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/PanelDeJuego.java...
+Constructing Javadoc information...
+Standard Doclet version 1.6.0_26
+Building tree for all the packages and classes...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/PanelDeJuego.html...
+/home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/PanelDeJuego.java:163: warning - @param argument "bala." is not a parameter name.
+/home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/PanelDeJuego.java:163: warning - @param argument "nave." is not a parameter name.
+/home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/PanelDeJuego.java:151: warning - @param argument "x." is not a parameter name.
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/package-frame.html...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/package-summary.html...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/constant-values.html...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/serialized-form.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/allclasses-frame.html...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/allclasses-noframe.html...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/index.html...
+Generating /home/jmcoca/Escritorio/Uned/Práctica/SpaceInvaders JMCoca enviada/SpaceInvaders/doc/stylesheet.css...
+3 warnings

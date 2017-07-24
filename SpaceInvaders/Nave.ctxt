@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=posicion
+comment0.target=Nave(Coordenada)
+comment1.params=
+comment1.target=int\ getCoordenadaX()
+comment2.params=
+comment2.target=int\ getCoordenadaY()
+comment3.params=
+comment3.target=int\ getEstado()
+comment4.params=pasos
+comment4.target=void\ moverHorizontal(int)
+comment4.text=\r\n\ Control\ del\ movimiento\ Horizontal\ de\ la\ nave\r\n\ @param\ pasos\ que\ se\ desplaza\ hotizontalmente\r\n
+comment5.params=pasos
+comment5.target=void\ moverVertical(int)
+comment5.text=\r\n\ Control\ del\ movimiento\ Vertical\ de\ la\ nave\r\n\ @param\ pasos\ que\ se\ desplaza\ Verticalmente\r\n
+comment6.params=i
+comment6.target=void\ setEstado(int)
+comment6.text=\r\n\ Cambio\ de\ estado\r\n\ @param\ 1\ o\ 0\ Vivo/muerto\r\n
+comment7.params=
+comment7.target=void\ naveAlcanzada()
+comment7.text=\r\n\ Nave\ Alcanzada\r\n\ Cuando\ una\ nave\r\n\ es\ alcanzada\ estado\ muerto\=0;\r\n
+numComments=8

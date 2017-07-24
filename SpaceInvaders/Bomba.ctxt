@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=posicion
+comment0.target=Bomba(Coordenada)
+comment0.text=\r\n\ Constructor\ del\ defensor.\r\n\ @param\ posicion\ Coordenadas\ en\ el\ tablero\r\n
+numComments=1

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=posicion
+comment0.target=Defensor(Coordenada)
+comment0.text=\r\n\ Constructor\ del\ defensor.\r\n\ @param\ posicion\ Coordenadas\ en\ el\ tablero\r\n
+comment1.params=g
+comment1.target=void\ pintar(java.awt.Graphics)
+comment1.text=\r\n\ posiciona\ la\ pieza\ en\ el\ tablero\ (la\ pinta)\r\n\ @param\ g.\ \r\n
+comment2.params=
+comment2.target=void\ naveAlcanzada()
+comment2.text=\r\n\ Nave\ Alcanzada\r\n
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Programa\r\n
+comment1.params=
+comment1.target=SpaceInvader_IGU()
+comment1.text=\r\n\ Ejecuta\ la\ aplicacion\r\n\ la\ muestra\ en\ pantalla\r\n
+comment2.params=
+comment2.target=void\ construirVentana()
+comment2.text=\r\n\ Crea\ la\ ventana\ Swing\ y\ su\ contenido.\r\n
+comment3.params=e
+comment3.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment4.params=
+comment4.target=void\ ejecutar()
+comment4.text=\r\n\ LLamada\ al\ bucle\ del\ juego\r\n\ primero\ un\ pausa\ de\ 1/2\ segundo\r\n
+comment5.params=milliseconds
+comment5.target=void\ wait(int)
+comment5.text=\r\n\ Para\ controlar\ el\ timer\r\n\ @param\ tiempo\ en\ milisegundos\r\n
+numComments=6

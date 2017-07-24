@@ -1,0 +1,11 @@
+Contenido:
+1-Ejecutable java
+2-paquete BlueJ
+3-Memoria
+
+Para arrancar el juego, bien hacer doble click en el ejecutable, bien en la consola ir a la carpeta del paquete blueJ (Directorio SpaceInvaders). y escribir:> java SpaceInvader_IGU
+
+Los controles para jugar son:
+O: Mueve izquierda
+P: Mueve Derecha
+Barra espaciadora: Disparo.
