@@ -4,13 +4,17 @@ import java.awt.Graphics;
 import java.util.Random;
 /**
  * PanelDeJuego muestra el tablero, le aì±°ade un fondo color negro
- * como tablero y aå? ï¿½de las piezas, del jeugo
+ * como tablero y aï¿½?ï¿½ï¿½de las piezas, del jeugo
  * 
  * @author  Jose M Coca de la Torre
  * @version mayo 2012
  */
 public class PanelDeJuego extends JPanel {
-  private int ancho,alto,escala,sentido;
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+private int ancho,alto,escala,sentido;
   private int nInvasores;
   private int cInvasores;
   private Defensor defensor;
@@ -128,7 +132,10 @@ public class PanelDeJuego extends JPanel {
    */
   private boolean puedeMoverNaveH(Nave nave, int mov) {
         boolean mueve = true;
-        if((nave.getEstado() == 1) &&(nave.getCoordenadaX() + mov > ancho - 2 || nave.getCoordenadaX() + mov <= 0)){
+        if((nave.getEstado() == 1) &&(
+        		nave.getCoordenadaX() + mov > ancho - 2 || nave.getCoordenadaX() + mov <= 0
+        	||nave.getCoordenadaY()	+mov > alto-2 //limite inferior  
+        	|| nave.getCoordenadaY()+mov< 0)){ //limite superior
                     mueve = false;
         }
         return mueve;
@@ -148,7 +155,7 @@ public class PanelDeJuego extends JPanel {
 
   //metodos publicos
   /** 
-   * Mecánica automática del juego
+   * Mecï¿½nica automï¿½tica del juego
    * Movimiento de los invasores
    * Movimiento de los disparos.
    */
@@ -195,6 +202,17 @@ public class PanelDeJuego extends JPanel {
         }
   }
 
+  /**
+   * Desplazamiento vertical del defensor
+   * @param y. desplazamiento
+   */
+  public void movVertical(int y) {
+        if(puedeMoverNaveH(defensor, y)){
+            defensor.moverVertical(y);
+            repaint();
+        }
+  }
+  
   /**
    * Llamada para crear
    * el disparo del defensor

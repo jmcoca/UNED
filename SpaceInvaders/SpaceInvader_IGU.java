@@ -46,7 +46,14 @@ public class SpaceInvader_IGU{
                          panelDeJuego.movHorizontal(-1);//desplazamiento a la izquierda
                     }else   if(e.getKeyCode()==KeyEvent.VK_P){
                         panelDeJuego.movHorizontal(1);//desplazamiento a la derecha
-                    }else   if(e.getKeyCode()==KeyEvent.VK_SPACE){
+                    }else if(e.getKeyCode()==KeyEvent.VK_Q){
+                        panelDeJuego.movVertical(-1);//desplazamiento a la arriba
+                    
+                    }else if(e.getKeyCode()==KeyEvent.VK_A){
+                        panelDeJuego.movVertical(1);//desplazamiento abajo
+                    	
+                    }
+                    else   if(e.getKeyCode()==KeyEvent.VK_SPACE){
                         if (!panelDeJuego.hayDisparo()){
                             panelDeJuego.disparaDefensor();
                         }
