@@ -5,7 +5,7 @@ import java.awt.Color;
  * @param escala: por si nos interesan otras dimensiones en el juego.
  * @param posicion: Coordendas para situar la nave en el plano
  * @author JMCoca
- * @version 2012
+ * @version 2017
  */
 public class Nave {
   protected int estado, escala;     //campos

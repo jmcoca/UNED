@@ -2,7 +2,8 @@ import java.awt.Color;
 /**
  * clase Bomba
  * @author JMCoca
- * @version 2012
+ * @version 2017
+ * 
  */
 public class Bomba extends Balas {
   /**
