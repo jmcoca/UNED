@@ -7,7 +7,8 @@ import java.awt.Graphics;
  * escala: escala para establecer el tamaño del disparo
  * color: Color del disparo.
  * @author JMCoca
- * @version 2012
+ * @version 2014
+ * 
  */
 public class Balas {
   //campos
